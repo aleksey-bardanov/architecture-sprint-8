@@ -1,0 +1,12 @@
+[project]
+name = "sprint-8"
+version = "0.1.0"
+description = "Объединение сервисов через SSO и работа с данными для аналитики"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.115.11",
+    "pydantic-settings==2.8.1",
+    "pydantic[email]>=2.11.3",
+    "python-keycloak==5.3.1",
+    "uvicorn==0.34.0",
+]
